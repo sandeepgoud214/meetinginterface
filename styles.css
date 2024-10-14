@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 249);
+    position: relative;   
+}
+#header{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);   
+}
+#security{
+    position: absolute;
+    height: 16px;
+    margin-left: 24px;
+    margin-top: 1px;
+}
+#recording{
+    position: absolute;
+    height: 20px;
+    margin-left: 50px;
+    top: 10px;
+}
+#recording:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+p{
+    display: inline;
+    position: absolute;
+    font-weight: 280;
+    margin-left: 80px;
+    margin-top: -1px;
+}
+p:hover{
+    cursor: pointer;
+    background-color: rgb(190, 185, 185);
+    padding-inline: 10px;
+}
+#leave{
+    display: inline;
+    position: absolute;
+    margin-left: 1170px;
+    margin-top: -2px;
+    color: white;
+    background-color: rgb(230, 70, 41);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:smaller;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#leave:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+}
+#share{
+    margin-left: 1120px;
+    height: 25px;
+    margin-top: -2px;
+}
+#share:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#shares{
+    position: absolute;
+    margin-left: 1117px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#mic{
+    position: absolute;
+    margin-left: -80px;
+}
+#mic:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#mics{
+    position: absolute;
+    margin-left: 1070px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#video{
+    position: absolute;
+    margin-left: -130px;
+    height: 20px;
+    margin-top: 1px;
+}
+#video:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#videos{
+    position: absolute;
+    margin-left: 1005px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#threedot{
+    position: absolute;
+    margin-left: -180px;
+    height:15px;
+    opacity: 0.8;
+}
+#threedot:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#mores{
+    position: absolute;
+    margin-left: 962px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#plus{
+    position: absolute;
+    margin-left: -230px;
+    height:20px;
+}
+#plus:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#pluses{
+    position: absolute;
+    margin-left: 913px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#note{
+    position: absolute;
+    margin-left: -280px;
+    height:20px;
+}
+#note:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#notes{
+    position: absolute;
+    margin-left: 860px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#view{
+    position: absolute;
+    margin-left: -330px;
+    height:20px;
+}
+#view:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#views{
+    position: absolute;
+    margin-left: 813px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#react{
+    position: absolute;
+    margin-left: -380px;
+    height:25px;
+    top: 8px;
+}
+#react:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#reacts{
+    position: absolute;
+    margin-left: 765px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#raise{
+    position: absolute;
+    margin-left: -430px;
+    height:25px;
+    top: 8px;
+}
+#raise:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#raises{
+    position: absolute;
+    margin-left: 715px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#people{
+    position: absolute;
+    margin-left: -480px;
+    height:20px;
+    top: 9px;
+}
+#people:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#peoples{
+    position: absolute;
+    margin-left: 660px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#chat{
+    position: absolute;
+    margin-left: -530px;
+    height:20px;
+    top: 9px;
+}
+#chat:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#chats{
+    position: absolute;
+    margin-left: 613px;
+    font-size:10px;
+    opacity: 1;
+    top: 33px;
+}
+#card1{
+    display: inline;
+    position: absolute;
+    background-color: rgb(229, 229, 241);
+    margin-left: 90px;
+    margin-top: 5px;
+    padding: 120px;
+    padding-right: 250px;
+    border-radius: 10px;    
+}
+#shivam{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    background-color:rgb(159, 156, 156);
+    left: 10px;
+    margin-top: 88px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#name1{
+    display: inline;
+    position: absolute;
+    margin-left: 5px;
+    top: 50px;
+    padding: 40px;;
+    color: rgb(54, 54, 119);
+    font-size: 40px;
+    background-color: rgb(180, 218, 217);
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+#name1:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+#card2{
+    display: inline;
+    position: absolute;
+    background-color: rgb(200, 241, 241);
+    margin-left: 465px;
+    margin-top: 5px;
+    padding: 120px;
+    padding-right: 250px;
+    border-radius: 10px;    
+}
+#sandeep{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    background-color:rgb(159, 156, 156);
+    left: 10px;
+    margin-top: 88px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#name2{
+    display: inline;
+    position: absolute;
+    margin-left: 5px;
+    top: 50px;
+    padding: 40px;
+    padding-left:55px;
+    padding-right:55px;
+    color: rgb(134, 50, 50);
+    font-size: 40px;
+    background-color:rgb(236, 194, 200);
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+#name2:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+#card3{
+    display: inline;
+    position: absolute;
+    background-color: rgb(230, 230, 212);
+    margin-left: 840px;
+    margin-top: 5px;
+    padding: 120px;
+    padding-right: 250px;
+    border-radius: 10px;    
+}
+#peter{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    background-color:rgb(159, 156, 156);
+    left: 10px;
+    margin-top: 88px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#name3{
+    display: inline;
+    position: absolute;
+    margin-left: 5px;
+    top: 50px;
+    padding: 40px;
+    padding-left:55px;
+    padding-right:55px;
+    color: rgb(207, 157, 72);
+    font-size: 40px;
+    background-color:rgb(198, 206, 209);
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+#name3:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+#card4{
+    display: inline;
+    position: absolute;
+    background-color: rgb(228, 212, 212);
+    margin-left: 90px;
+    margin-top: 250px;
+    padding: 120px;
+    padding-right: 250px;
+    border-radius: 10px;    
+}
+#sri{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    background-color:rgb(159, 156, 156);
+    left: 10px;
+    margin-top: 88px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#name4{
+    display: inline;
+    position: absolute;
+    margin-left: 5px;
+    top: 50px;
+    padding: 40px;
+    padding-left:55px;
+    padding-right:55px;
+    color: rgba(128, 99, 50, 0.674);
+    font-size: 40px;
+    background-color:rgb(191, 213, 221);
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+#name4:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+#card5{
+    display: inline;
+    position: absolute;
+    background-color: rgb(221, 213, 172);
+    margin-left: 465px;
+    margin-top: 250px;
+    padding: 120px;
+    padding-right: 250px;
+    border-radius: 10px;    
+}
+#mk{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    background-color:rgb(159, 156, 156);
+    left: 10px;
+    margin-top: 88px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#name5{
+    display: inline;
+    position: absolute;
+    margin-left: 5px;
+    top: 50px;
+    padding: 40px;
+    padding-left:55px;
+    padding-right:55px;
+    color: rgba(128, 99, 50, 0.674);
+    font-size: 40px;
+    background-color:rgb(169, 194, 226);
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+#name5:hover{
+    cursor: pointer;
+    transform: scale(1.1);  
+}
+#card6{
+    display: inline;
+    position: absolute;
+    background-color: rgb(209, 192, 210);
+    margin-left: 840px;
+    margin-top: 250px;
+    padding: 120px;
+    padding-right: 250px;
+    border-radius: 10px;    
+}
+#jog{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    background-color:rgb(159, 156, 156);
+    left: 10px;
+    margin-top: 88px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#name6{
+    display: inline;
+    position: absolute;
+    margin-left: 5px;
+    top: 50px;
+    padding: 40px;
+    padding-left:55px;
+    padding-right:55px;
+    color: rgb(105, 147, 192);
+    font-size: 40px;
+    background-color:rgb(209, 215, 174);
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+#name6:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+
